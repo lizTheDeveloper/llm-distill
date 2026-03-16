@@ -1,0 +1,35 @@
+[project]
+name = "llm-distill"
+version = "0.1.0"
+description = "Distill LLM agent decisions into fast micro-NNs for real-time inference"
+license = { text = "MIT" }
+requires-python = ">=3.10"
+authors = [
+    { name = "Multiverse Games" },
+]
+dependencies = [
+    "torch>=2.0",
+    "numpy",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest",
+    "ruff",
+]
+labeling = [
+    "requests",
+]
+
+[project.scripts]
+llm-distill-train = "llm_distill.cli:train_cli"
+llm-distill-parse = "llm_distill.cli:parse_cli"
+llm-distill-label = "llm_distill.cli:label_cli"
+
+[project.urls]
+Homepage = "https://github.com/multiverse-games/llm-distill"
+Repository = "https://github.com/multiverse-games/llm-distill"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
