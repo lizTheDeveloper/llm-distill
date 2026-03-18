@@ -221,7 +221,7 @@ MIT
 
 ## Credits
 
-Extracted from the [Multiverse Games](https://github.com/multiverse-games) project.
+Extracted from the [Multiverse Games](https://github.com/Multiverse-Games) project.
 
 ### Research
 

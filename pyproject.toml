@@ -27,8 +27,8 @@ llm-distill-parse = "llm_distill.cli:parse_cli"
 llm-distill-label = "llm_distill.cli:label_cli"
 
 [project.urls]
-Homepage = "https://github.com/multiverse-games/llm-distill"
-Repository = "https://github.com/multiverse-games/llm-distill"
+Homepage = "https://github.com/lizTheDeveloper/llm-distill"
+Repository = "https://github.com/lizTheDeveloper/llm-distill"
 
 [build-system]
 requires = ["setuptools>=68"]
